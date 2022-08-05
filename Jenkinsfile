@@ -22,7 +22,7 @@ agent any
         stage ('Building dll') {
             steps {
                  
-              sh "HelloWorldConsoleApp1.csproj"
+              sh "HelloWorldConsoleApp1.sln"
             }           
         }
     
